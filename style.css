@@ -595,7 +595,7 @@ hero-overlay {
     }
 
     .carousel-container.hero-carousel img {
-        width: 100% !important;
+        width: 100vh !important;
         height: 280px !important;
         object-fit: cover !important;
         object-position: center !important;
