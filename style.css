@@ -592,6 +592,8 @@ hero-overlay {
         padding: 0 !important;
         overflow: hidden !important;
         display: block !important;
+        object-position: center !important;
+        object-fit: cover !important;
     }
 
     .carousel-container.hero-carousel img {
@@ -610,8 +612,8 @@ hero-overlay {
         height: 100% !important;
         display: flex !important;
         flex-direction: column !important;
-        justify-content: center !important;
-        align-items: center !important;
+        justify-content: baseline !important;
+        align-items: baseline !important;
         text-align: baseline !important;
         padding: 20px !important;
         box-sizing: border-box !important;
@@ -619,7 +621,7 @@ hero-overlay {
 
     #carousel-container .hero-overlay h1 {
         font-size: 1.8rem !important;
-        color: #3d227e !important;
+        color: #e9e5f3 !important;
         margin: 0 0 10px 0 !important;
     }
 
