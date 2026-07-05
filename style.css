@@ -584,9 +584,9 @@ hero-overlay {
 
     #carousel-container.hero-carousel {
         position: relative !important;
-        width: 100vw !important;
-        max-width: 100vw !important;
-        height: 350px !important;
+        width: 350px !important;
+        max-width: 350px !important;
+        height: 280px !important;
         margin-left: calc(-50vw + 50%) !important;
         margin-right: calc(-50vw + 50%) !important;
         padding: 0 !important;
@@ -595,7 +595,7 @@ hero-overlay {
     }
 
     .carousel-container.hero-carousel img {
-        width: 100vh !important;
+        width: 350px !important;
         height: 280px !important;
         object-fit: cover !important;
         object-position: center !important;
