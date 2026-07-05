@@ -584,9 +584,9 @@ hero-overlay {
 
     #carousel-container.hero-carousel {
         position: relative !important;
-        width: 350px !important;
-        max-width: 350px !important;
-        height: 280px !important;
+        width: 600px !important;
+        max-width: 600px !important;
+        height: 400px !important;
         margin-left: calc(-50vw + 50%) !important;
         margin-right: calc(-50vw + 50%) !important;
         padding: 0 !important;
@@ -595,8 +595,8 @@ hero-overlay {
     }
 
     .carousel-container.hero-carousel img {
-        width: 350px !important;
-        height: 280px !important;
+        width: 600px !important;
+        height: 350px !important;
         object-fit: cover !important;
         object-position: center !important;
         display: block !important;
@@ -619,7 +619,7 @@ hero-overlay {
 
     #carousel-container .hero-overlay h1 {
         font-size: 1.8rem !important;
-        color: #ffffff !important;
+        color: #3d227e !important;
         margin: 0 0 10px 0 !important;
     }
 
