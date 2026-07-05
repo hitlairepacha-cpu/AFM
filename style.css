@@ -596,7 +596,7 @@ hero-overlay {
 
     .carousel-container.hero-carousel img {
         width: 100% !important;
-        height: 100% !important;
+        height: 280px !important;
         object-fit: cover !important;
         object-position: center !important;
         display: block !important;
@@ -608,12 +608,11 @@ hero-overlay {
         left: 0 !important;
         width: 100% !important;
         height: 100% !important;
-        background: rgba(0, 0, 0, 0.4) !important;
         display: flex !important;
         flex-direction: column !important;
         justify-content: center !important;
         align-items: center !important;
-        text-align: center !important;
+        text-align: baseline !important;
         padding: 20px !important;
         box-sizing: border-box !important;
     }
@@ -622,12 +621,6 @@ hero-overlay {
         font-size: 1.8rem !important;
         color: #ffffff !important;
         margin: 0 0 10px 0 !important;
-    }
-
-    #carousel-container .hero-overlay p {
-        font-size: 1rem !important;
-        color: #ffffff !important;
-        margin: 0 !important;
     }
 
     .players-grid {
